@@ -6,7 +6,13 @@
 }
 
 body{
-    background-color: #f8f9fa;
+  
+}
+
+main{
+    /* background-image: url("imagens/fundo.png");
+    background-repeat: no-repeat; */
+    /* background-size: (100%); */
 }
 
 .navbar-brand{
@@ -26,6 +32,7 @@ body{
 
 #parte1{
     position: relative;
+    
 }
 
 #Parte1 figcaption {
@@ -53,7 +60,7 @@ body{
 #botaoParte1{
     position: absolute;
     z-index:1;
-    margin:300px 0px 0px -191vh;
+    margin:300px 0px 0px -197vh;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
     color: #000;
@@ -63,7 +70,10 @@ body{
 }
 
 /*Parte 2 - Doutora*/
-
+#doutora{
+    background-color: #f8f9fa;
+    padding-bottom: 2vh;
+}
 
 #imagemDoutora{
     margin-top: 5vh;
@@ -114,7 +124,6 @@ body{
 
 /*Parte 3 - Tratamentos*/
 #tratamentos{
-    margin-top: 2vh;
     background-color: #e7b9b9 ;
     padding: 45vh;
 }
@@ -136,9 +145,21 @@ body{
     margin-top: -35vh;
 }
 
+/*ozonioterapia*/
+
 #iconeOzonio{
     width: 8vh;
     margin-left: -25vh;
+    margin-top: -25vh;
+}
+
+#subOzonio{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vh;
+    margin-left: -15vh;
     margin-top: -25vh;
 }
 
@@ -150,5 +171,91 @@ body{
     font-size: 2vh;
     width: 40%;
     margin-left: -15vh;
-    margin-top: -25vh;
+    margin-top: -20vh;
+}
+
+/*botox*/
+#iconeBotox{
+    width: 8vh;
+    margin-left: -25vh;
+    margin-top: 10vh;
+}
+
+#subBotox{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vh;
+    margin-left: -15vh;
+    margin-top: 12vh;
+}
+
+#textoBotox{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2vh;
+    width: 40%;
+    margin-left: -15vh;
+    margin-top: 18vh;
+}
+
+/*ultrassom microfocado*/
+#iconeUltra{
+    width: 8vh;
+    margin-left: -25vh;
+    margin-top: 28vh; 
+}
+
+#subUltra{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vh;
+    margin-left: -15vh;
+    margin-top: 30vh;
+}
+
+#textoUltra{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2vh;
+    width: 40%;
+    margin-left: -15vh;
+    margin-top: 35vh;
+}
+
+/*Outros procedimentos*/
+/* #procedimentos{
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 3000px 2000px;
+    background-position: 0 0;
+    background-position-x: 0;
+} */
+
+#tituloProcedimentos{
+    font-family: 'Caprasimo', cursive;
+    margin-left: 8vh;
+    margin-top: 7vh;
+    font-size: 40px;
+    color: #bb8893 ;
+}
+
+#iconeRinotox{
+    width: 8vh;
+    margin-left: 15vh;
+}
+
+#tituloRinotox{
+    font-family: 'Caprasimo', cursive;
+    color: #bb8893 ;
+    font-size: 25px;
+    margin-top: 5vh;
+    
 }
