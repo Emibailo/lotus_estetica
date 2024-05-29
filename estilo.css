@@ -1,0 +1,154 @@
+#logo{
+    margin-top: 0px;
+    height: 55px;
+    width: 60px;
+    margin-left: 1px;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+.navbar-brand{
+    font-family: 'Caprasimo', cursive;
+	font-size: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+    color: #e7b9b9;
+}
+
+/*Parte 1*/
+#principal{
+    width: 100%;
+    height: 30%;
+    
+}
+
+#parte1{
+    position: relative;
+}
+
+#Parte1 figcaption {
+    position: absolute;
+    color: black;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+#textoParte1{
+    font-family: 'Caprasimo', cursive;
+    font-size: 35px;
+}
+
+#texto2parte1{
+    position: absolute;
+    color: black;
+    margin-top: -14%;
+    margin-left: 5%;
+    font-family: 'Caprasimo', cursive;
+    font-size: 25px;
+    padding: 2px;
+}
+
+#botaoParte1{
+    position: absolute;
+    z-index:1;
+    margin:300px 0px 0px -191vh;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #000;
+    padding: 15px;
+    font-family: 'Caprasimo', cursive;
+    font-size: 20px;
+}
+
+/*Parte 2 - Doutora*/
+
+
+#imagemDoutora{
+    margin-top: 5vh;
+    margin-left: 25vh;
+}
+
+#tituloDoutora{
+    position: absolute;
+    font-family: 'Caprasimo', cursive;
+    margin-left: 80vh;
+    margin-top: 7vh;
+    font-size: 40px;
+    color: #e7b9b9 ;
+}
+
+#subtituloDoutora{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 80vh;
+    margin-top: 15vh;
+    font-family: 'Caprasimo', cursive;
+    font-size: 20px;
+}
+
+#textoDoutora{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 80vh;
+    margin-top: 20vh;
+    width: 40%;
+    justify-content: center;
+   
+}
+
+#botaoParte2{
+    position: relative;
+    margin-top: 65vh;
+    margin-left: 25vh;
+    background-color: #e7b9b9;
+    border-color: #e7b9b9;
+    color: #000;
+    padding: 15px;
+}
+
+/*Parte 3 - Tratamentos*/
+#tratamentos{
+    margin-top: 2vh;
+    background-color: #e7b9b9 ;
+    padding: 45vh;
+}
+
+#imagemTratamento{
+    position: absolute;
+    width: 40%;
+    margin-left: 74vh;
+    margin-top: -40vh;
+}
+
+#tituloTratamento{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4vh;
+    margin-left: -30vh;
+    margin-top: -35vh;
+}
+
+#iconeOzonio{
+    width: 8vh;
+    margin-left: -25vh;
+    margin-top: -25vh;
+}
+
+#textoOzonio{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2vh;
+    width: 40%;
+    margin-left: -15vh;
+    margin-top: -25vh;
+}
